@@ -553,3 +553,86 @@ button.btn-red:hover {
   letter-spacing: 0px;
   color: #000000;
 }
+
+/* //////////////////////////////////////////////////////
+                Feedback Starts
+///////////////////////////////////////////////////////*/
+#feedback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1170px;
+}
+#feedback h4 {
+  text-align: left;
+
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 80px;
+  letter-spacing: 0px;
+  color: #ff3147;
+  text-transform: uppercase;
+}
+
+#feedback h2 {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 1.2;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.client-feedback {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 80px;
+}
+.client-feedback p {
+  position: relative;
+  text-align: left;
+
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0px;
+  color: #000000;
+  max-width: 800px;
+}
+.client-feedback img {
+  position: absolute;
+  top: -16px;
+  z-index: -1;
+}
+
+.client-details {
+  display: flex;
+  gap: 16px;
+}
+.client-details h6 {
+  text-align: left;
+
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: bold;
+  color: #ff3147;
+}
+
+.client-details p {
+  text-align: left;
+  font: normal normal 300 20px/34px Poppins;
+
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 300;
+  color: #808080;
+}
+
+footer {
+  background: url("./icons/FooterBack.svg");
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
